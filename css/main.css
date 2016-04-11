@@ -63,9 +63,11 @@ h1, h2, h3, h4{
     font-family: 'Antic Slab', serif;
     font-weight: 400;
 }
-p .para{
+p {
     font-family: 'Pontano Sans', sans-serif;
-    font-weight: 400;   
+    font-weight: 400; 
+    font-size: 14px;
+    color:#999999;  
 }
 .content{
     max-width: 1024px;
@@ -221,17 +223,63 @@ color:#aecacc;
 #secondary-nav div a:hover {
 color:#aecacc;
 }
+.body-content{
+    width: 308px;
+}
+.txt-column{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 308px;
+    height:424px;
+    background-color: #f4f4f4;
+}
+.txt-column p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.txt-column:after {
+  display: block;
+  content: '';
+  background-image: url("../img/shadow_308.png");
+  background-repeat: no-repeat;
+  width:308px;
+  height:31px;
+  position: absolute;
+  bottom: -31px;
+}
+.txt-column-shadow {
+  display: inline-block;
+  background-image: url("../img/shadow_308.png");
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  width:308px;
+  height:31px;
+}
 
-h2
+
+h2 /* ribbon heading*/
 {
     position: relative;
     width: 50%;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 6px 20px 6px 70px;
-    margin: 30px 10px 10px -70px;
-    color: #555;
-    background-color: #999;
+    font-size: 30px;
+    padding: 0px 20px 0px 35px;
+    margin: 30px 10px 10px -16px;
+    color: #fff;
+    background-color: #aecacc;
+}
+h2:after
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: -10px;
+    border-width: 5px 8px;
+    border-style: solid;
+    border-color: transparent #8ba8aa #8ba8aa transparent;
 }
 /* The common formating stuff goes here*/
 .fast-anim{
