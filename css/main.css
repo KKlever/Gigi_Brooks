@@ -239,7 +239,7 @@ color:#aecacc;
     margin-left: 20px;
     margin-right: 20px;
 }
-.txt-column:after {
+.txt-column:after { /* Adds a shadow underneath the txt-column*/
   display: block;
   content: '';
   background-image: url("../img/shadow_308.png");
@@ -248,14 +248,6 @@ color:#aecacc;
   height:31px;
   position: absolute;
   bottom: -31px;
-}
-.txt-column-shadow {
-  display: inline-block;
-  background-image: url("../img/shadow_308.png");
-  background-repeat: no-repeat;
-  margin-left: 40px;
-  width:308px;
-  height:31px;
 }
 
 
