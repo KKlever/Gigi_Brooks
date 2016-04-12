@@ -224,7 +224,7 @@ color:#aecacc;
 color:#aecacc;
 }
 .body-content{
-    width: 308px;
+
 }
 .txt-column{
     position: relative;
@@ -249,7 +249,25 @@ color:#aecacc;
   position: absolute;
   bottom: -31px;
 }
-
+.l-image-box{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 7px;
+    
+    width: 656px;
+    height:424px;
+    background-color: #f4f4f4;
+}
+.l-image-box:after { /* Adds a shadow underneath the img box*/
+  display: block;
+  content: '';
+  background-image: url("../img/shadow_656.png");
+  background-repeat: no-repeat;
+  width:656px;
+  height:31px;
+  position: absolute;
+  bottom: -31px;
+}
 
 h2 /* ribbon heading*/
 {

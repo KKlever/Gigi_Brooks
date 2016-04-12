@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bacg",
+				"background-repeat"
+			],
+			[
 				"font-s",
 				"font-size"
 			],
@@ -24,24 +36,18 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <title>Gigi Brooks</title>\n    <meta name=\"description\" content=\"This is but a homework...\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link href='https://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>\n    <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>\n    <link rel=\"stylesheet\" href=\"css/normalize.min.css\">\n    <link rel=\"stylesheet\" href=\"css/main.css\">\n\n\n        <!--[if lt IE 9]>\n            <script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n            <script>window.html5 || document.write('<script src=\"js/vendor/html5shiv.js\"><\\/script>')</script>\n            <![endif]-->\n        </head>\n        <body>\n            <div class='content' id='Frontpage'>\n                <div class='navigation'>\n                    <div class='float-l' id='Logo'></div>\n                    <div class='float-r' id='header-nav'>\n                        <div class='float-r clearfix' id='small-nav'>\n\n                            <ul class=\"no-ul-style float-r\">\n                                <li><a class=\"menu-link\" href=\"#\">Sign In</a></li>\n                                <li><a class=\"menu-link\" href=\"#\">My Account</a></li>\n                                <li><a class=\"menu-link\" href=\"#\">My Gifts</a></li>\n                                <li> <a class=\"menu-link\" href=\"#\">My Basket</a></li>\n                            </ul>\n                            <div class='dropdown float-r'>Currency &pound;</div>\n                            <a href=\"#\" id='live-chat-btn' class=\"float-r\"><div class='float-l fast-anim' id='live-chat'>LIVE CHAT</div></a>\n                        </div>\n                        <div id=\"main-nav\" class=\"float-l\"> \n                            <div id='search' class=\"float-r\">                          \n                            </div>\n                            <nav class=\"float-r\">\n                                <a class=\"menu-link float-l\" href=\"#\">SHOP</a>\n                                <a class=\"menu-link float-l\" href=\"#\">COLLECTIONS</a>\n                                <a class=\"menu-link float-l\" href=\"#\">GIFTS</a>\n                                <a class=\"menu-link float-l\" href=\"#\">MOODBOARD</a>\n                                <a class=\"menu-link float-l\" href=\"#\">BLOG</a>\n                            </nav>\n\n                        </div>\n\n                    </div>\n\n\n                </div>\n                <div id=\"secondary-nav\" class=\"clearfix\">\n                  <div><a class=\"menu-link float-l\" href=\"#\">BEDS</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">CHAIRS</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">DESKS</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">MIRRORS</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">BOOK CASES</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">TABLES</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">DRESSERS</a></div>\n                  <div><a class=\"menu-link float-l\" href=\"#\">STORAGE</a></div>\n                </div>\n\n                <div class=\"body-content clearfix\">\n                    \n                </div>\n              <p>Hello world! This is HTML5 Boilerplate.</p>\n          </div>\n\n       <!-- <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js\"></script>\n        <script>window.jQuery || document.write('<script src=\"js/vendor/jquery-1.11.2.min.js\"><\\/script>')</script>\n\n        <script src=\"js/main.js\"></script> -->\n    </body>\n    </html>\n",
 			"file": "index.html",
-			"file_size": 3705,
-			"file_write_time": 131041976048271092,
 			"settings":
 			{
-				"buffer_size": 3800,
+				"buffer_size": 4407,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */\n\nhtml {\n    color: #222;\n    font-size: 1em;\n    line-height: 1.4;\n}\n\n::-moz-selection {\n    background: #b3d4fc;\n    text-shadow: none;\n}\n\n::selection {\n    background: #b3d4fc;\n    text-shadow: none;\n}\n\nhr {\n    display: block;\n    height: 1px;\n    border: 0;\n    border-top: 1px solid #ccc;\n    margin: 1em 0;\n    padding: 0;\n}\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n    vertical-align: middle;\n}\n\nfieldset {\n    border: 0;\n    margin: 0;\n    padding: 0;\n}\n\ntextarea {\n    resize: vertical;\n}\n\n.browserupgrade {\n    margin: 0.2em 0;\n    background: #ccc;\n    color: #000;\n    padding: 0.2em 0;\n}\n\n\n/* ==========================================================================\n   Author's custom styles\n   ========================================================================== */\nbody{\n    font-family: 'Antic Slab', serif;\n    font-weight: 400;    \n}\nh1, h2, h3, h4{\n    font-family: 'Antic Slab', serif;\n    font-weight: 400;\n}\np .para{\n    font-family: 'Pontano Sans', sans-serif;\n    font-weight: 400;   \n}\n.content{\n    max-width: 1024px;\n    margin: 0 auto;\n}\n.navigation{\n    font-family: 'Antic Slab', serif;\n    font-weight: 400;\n    height: 120px;\n    width: 100%;\n    min-width: 1024px;\n    color: #999999;\n}\n.dropdown{\n    padding-top: 10px;\n    margin-left: 5px;\n    margin-right: 5px;\n\n}\n.dropdown:after{\n\n    content: \"\";\n    display: inline-block;\n    background: url(\"../img/drpdwn.png\") no-repeat top right;\n   \n    margin-left: 4px;\n    width: 8px;\n    height: 5px;\n\n}\n#small-nav a{\n    text-decoration: none;\n}\n\n#Logo{\n    background-image: url(\"../img/gigi_logo.png\");\n    background-repeat:no-repeat;\n    width:300px;\n    height:120px;\n}\n#header-nav{\n    max-width: 724px;\n    height:120px;\n}\n#small-nav{\n    font-family: 'Pontano Sans', sans-serif;\n    font-weight: 400;\n    width: 470px; \n    height:37px;\n    font-size: 11px;\n\n}\n#main-nav{\n    font-family: 'Antic Slab', serif;\n    font-weight: 400;\n    width:724px; \n    height:83px;\n    font-size: 16px;\n\n}\n\n#small-nav li {\n    float: left;\n}\n#main-nav li {\n    float: left;\n}\n.menu-link{\n    color: inherit;\n    display: block;\n    text-align: center;\n    text-decoration: none;\n}\n#small-nav li a {\n    \n    color: inherit;\n    padding-top: 10px;\n    padding-left: 18px;\n    padding-right: 10px\n}\n#small-nav li a:hover {\ncolor:#aecacc;\n}\n\n.no-ul-style{\n    list-style-type: none;\n    margin: 0;\n    padding: 0; \n    overflow: hidden;\n}\n\nnav a {\n    \n    color: inherit;\n    padding: 32px 34px;\n}\n\nnav a:hover {\ncolor:#aecacc;\n}\n\n#live-chat{\n    text-align: center;\n    height: 27px;\n    width: 72px;\n    padding-top: 10px;\n    margin-right: 15px;\n    margin-left: 15px;\n    font-family: 'Antic Slab', serif;\n    font-weight: 400;\n    color: #fff;\n    font-size: inherit;\n    background-position: bottom;\n    background-image: url(\"../img/w_mark.png\");\n    background-repeat:no-repeat;\n    text-decoration: none;\n}\n\n#live-chat:hover {\n    padding-top: 20px;\n}\n\n#search{\n    display: block;\n    margin: 30px 20px 30px 20px;\n    width: 23px;\n    height: 23px;\n    background-image: url(\"../img/search_icon.png\");\n    background-repeat:no-repeat;\n}\n\n#secondary-nav {\n  height: 104px;\n  width: 944px;\n  background-color: #f4f4f4;\n  color: #333333;\n  font-size: 14px;\n  text-align: justify;\n  padding:0px 40px;\n  min-width: 600px;\n}\n#secondary-nav div {\n  margin-top:43px;\n  display: inline-block;\n  \n}\n\n#secondary-nav:after {\n  content: '';\n  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */\n  display: inline-block;\n}\n#secondary-nav div a:hover {\ncolor:#aecacc;\n}\n\nh2\n{\n    position: relative;\n    width: 50%;\n    font-size: 1.5em;\n    font-weight: bold;\n    padding: 6px 20px 6px 70px;\n    margin: 30px 10px 10px -70px;\n    color: #555;\n    background-color: #999;\n}\n/* The common formating stuff goes here*/\n.fast-anim{\n    -webkit-transition: all 150ms ease-in;\n    -moz-transition: all 150ms ease-in;\n    -ms-transition: all 150ms ease-in;\n    -o-transition: all 150ms ease-in;\n    transition: all 150ms ease-in;\n}\n.easy-anim{\n    -webkit-transition: all 350ms ease-in;\n    -moz-transition: all 350ms ease-in;\n    -ms-transition: all 350ms ease-in;\n    -o-transition: all 350ms ease-in;\n    transition: all 350ms ease-in;\n}\n.float-l {\n    float: left;\n}\n.float-r {\n    float: right;\n}\n\n.span_2_of_3 {\n    width: 66.13%; \n}\n\n.span_1_of_3 {\n    width: 32.26%; \n}\n\n\n\n\n\n/* ==========================================================================\n   Media Queries\n   ========================================================================== */\n\n@media only screen and (min-width: 35em) {\n\n}\n\n@media print,\n       (-o-min-device-pixel-ratio: 5/4),\n       (-webkit-min-device-pixel-ratio: 1.25),\n       (min-resolution: 120dpi) {\n\n}\n\n/* ==========================================================================\n   Helper classes\n   ========================================================================== */\n\n.hidden {\n    display: none !important;\n    visibility: hidden;\n}\n\n.visuallyhidden {\n    border: 0;\n    clip: rect(0 0 0 0);\n    height: 1px;\n    margin: -1px;\n    overflow: hidden;\n    padding: 0;\n    position: absolute;\n    width: 1px;\n}\n\n.visuallyhidden.focusable:active,\n.visuallyhidden.focusable:focus {\n    clip: auto;\n    height: auto;\n    margin: 0;\n    overflow: visible;\n    position: static;\n    width: auto;\n}\n\n.invisible {\n    visibility: hidden;\n}\n\n.clearfix:before,\n.clearfix:after {\n    content: \" \";\n    display: table;\n}\n\n.clearfix:after {\n    clear: both;\n}\n\n.clearfix {\n    *zoom: 1;\n}\n\n/* ==========================================================================\n   Print styles\n   ========================================================================== */\n\n@media print {\n    *,\n    *:before,\n    *:after {\n        background: transparent !important;\n        color: #000 !important;\n        box-shadow: none !important;\n        text-shadow: none !important;\n    }\n\n    a,\n    a:visited {\n        text-decoration: underline;\n    }\n\n    a[href]:after {\n        content: \" (\" attr(href) \")\";\n    }\n\n    abbr[title]:after {\n        content: \" (\" attr(title) \")\";\n    }\n\n    a[href^=\"#\"]:after,\n    a[href^=\"javascript:\"]:after {\n        content: \"\";\n    }\n\n    pre,\n    blockquote {\n        border: 1px solid #999;\n        page-break-inside: avoid;\n    }\n\n    thead {\n        display: table-header-group;\n    }\n\n    tr,\n    img {\n        page-break-inside: avoid;\n    }\n\n    img {\n        max-width: 100% !important;\n    }\n\n    p,\n    h2,\n    h3 {\n        orphans: 3;\n        widows: 3;\n    }\n\n    h2,\n    h3 {\n        page-break-after: avoid;\n    }\n}",
 			"file": "css/main.css",
-			"file_size": 6423,
-			"file_write_time": 131041977865106795,
 			"settings":
 			{
-				"buffer_size": 6668,
+				"buffer_size": 7453,
 				"line_ending": "Unix"
 			}
 		}
@@ -140,15 +146,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3800,
+						"buffer_size": 4407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3413,
-								3413
+								4394,
+								4394
 							]
 						],
 						"settings":
@@ -158,7 +164,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -170,15 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6668,
+						"buffer_size": 7453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3848,
-								3848
+								4164,
+								4164
 							]
 						],
 						"settings":
@@ -188,7 +194,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2934.0,
+						"translation.y": 3052.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
